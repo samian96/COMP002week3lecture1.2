@@ -20,3 +20,11 @@ function printWorld() {
 printHello();
 printWorld();
 
+// Function that causes stack Overflow
+
+/*function overFlow() {
+ *   function overflow()
+ *   console.log(overflow);
+*}
+*overflow()
+*/ 
