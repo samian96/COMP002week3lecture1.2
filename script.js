@@ -6,3 +6,7 @@ if (name == "User") {
     console.log(greeting);
 }
 
+let r = 4; // assigning radius to 4
+let res = 4 * Math.PI * r; // calculates the circumference using a formula
+console.log(`${res.toFixed(3)}`)
+
